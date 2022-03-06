@@ -1,0 +1,16 @@
+commentaire ::= /*...*/ -> permet de faire des commentaire sur plusieurs lignes
+                #... -> permet de faire des commentaires sur une seul ligne
+ 
+ mot clés ::= afficher -> permet d'afficher du texte
+              retour -> fait office de caractere '\n' dans les chaines de caracteres
+ 
+ chaine de caractère ::= '...' -> chaine de caractère peut s'étendre sur plusieurs lignes
+ 
+ échappement ::= \ -> permet d'annuler la fin d'une chaine de caractere d'un commentaire ou un retour à la ligne
+ 
+ 
+ CHAINE DE CARACTERE ::= chaine de caractere
+                         retour
+                         [CHAINE DE CARACTERE] [CHAINE DE CARACTERE]
+ 
+ AFFICHER ::= afficher [CHAINE DE CARACTERE] fin instruction
