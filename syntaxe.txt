@@ -6,8 +6,10 @@ commentaire ::= /*...*/ -> permet de faire des commentaire sur plusieurs lignes
  
  chaine de caractère ::= '...' -> chaine de caractère peut s'étendre sur plusieurs lignes
  
- échappement ::= \ -> permet d'annuler la fin d'une chaine de caractere d'un commentaire ou un retour à la ligne
+ fin intruction ::= \n\s+$? -> un ou plusieur retour à la ligne si les lignes sont vides
+                    $ -> présent à la fin du fichier
  
+ échappement ::= \ -> permet d'annuler la fin d'une chaine de caractere d'un commentaire ou un retour à la ligne
  
  CHAINE DE CARACTERE ::= chaine de caractere
                          retour
